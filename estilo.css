@@ -1,0 +1,296 @@
+body {
+    background-image: url(imgs/backgroundsand.jfif);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.manutencao img{
+    width: 50%;
+    margin-left: 25%;
+}
+.manutencao h1, .manutencao h2, .manutencao p{
+    color: white;
+    text-align: center;
+}
+.manutencao a{
+    margin-left: 48%;
+    margin-right: 48%;
+}
+
+.header {
+
+    text-align: center;
+    background-color: #774E24;
+    margin-bottom: 20px;
+}
+
+.header a{
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 2px;
+}
+
+.header p{
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: gray;
+    color: red;
+    padding: 2px;
+}
+
+.header_area {
+    padding: 1%;
+}
+
+.logo {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.menu_area {
+    margin-top: 80px;
+}
+
+.search_bar {
+    margin-top: 80px;
+    width: 200px;
+}
+
+.menu_area nav a {
+
+    background-color: #DCAB6B;
+    padding: 2%;
+}
+
+.menu_area nav a:hover {
+    background-color: gray;
+}
+
+
+.destaques {
+    background-color: #6E0D25;
+    padding:0%;
+    padding-bottom: 1%;    
+    border: 1px solid black;
+    border-radius: 5px;    
+}
+
+.destaques h1,
+h2 {
+    text-align: center;
+}
+
+.destaques h1 {
+    background-color: black !important;
+    color: orangered;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    padding: 1%;
+}
+.destaques iframe{
+    margin-bottom: 10px;
+
+}
+.destaques h2 {
+    color: black;
+}
+
+.destaques p{
+    color: #FFFFB3;
+}
+
+.lancamentos {
+    background-color: #005C53;
+    margin: px;
+    padding: 1%;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.lancamentos h1 {
+    text-align: left;
+    margin-top: 5px;
+    color: #DBF227;
+}
+
+.lancamentos .dropdown{
+    margin: 5px;
+}
+
+.lancamentos h2 {
+    padding-top: 10%;
+    float: left;
+    font-size: medium;
+    color: black
+
+}
+.lancamentos iframe{
+        border: 1px solid white;
+        margin-bottom: 10px;
+        border-radius: 15px;  
+}
+.lancamentos .nota {
+    float: right;
+}
+
+.lancamentos .ver_mais {
+    float: left;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 30px;  
+}
+
+.lancamentos .see_more {
+    float: right;
+}
+
+.plataformas {
+    background-color: #005C53;
+    padding: 1%;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.plataformas h1 {
+    color: #DBF227;
+}
+
+.plataformas h2 {
+    text-align: left;
+    color: black;
+    padding: 1%;
+}
+
+.plataformas h3, .plataformas ul{
+    color: black;
+}
+
+.plataformas .ver_mais {
+    float: left;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 30px;  
+}
+
+.plataformas img{
+    border: 1px solid white;
+    margin-bottom: 10px;
+    border-radius: 15px;  
+}
+
+.plataformas .see_more{
+    float: right;
+}
+
+.publishers {
+    background-color: #6E0D25;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.publishers h1 {
+    background-color: black !important;
+    color: orangered;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    padding: 2%;
+}
+
+
+.publishers h2 {
+    text-align: left;
+    color: #000000;
+    padding: 1%;
+}
+
+.publishers h3,ul{
+    color: #FFFFB3;
+    margin-top: 20px;
+}
+
+.publishers .ver_mais {
+    float: left;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 30px;  
+}
+
+.publishers .see_more{
+    float: right;
+}
+
+.publishers img{
+    border: 1px solid white;
+    margin-bottom: 10px;
+    border-radius: 15px;  
+}
+
+.dropdown {
+    margin-top: 40px;
+
+}
+
+.sobre{
+    background-color: honeydew;
+    padding-bottom: 1%;
+    margin-top: 20px;
+    border-radius: 5px;
+    
+}
+.sobre .about{
+    font-size: larger;
+    
+}
+
+.sobre .editorial h2{
+    text-align: left;
+}
+.sobre .editorial ul{
+    text-align: left;
+    color: black;
+}
+
+
+.footer {
+    color: white;
+    background-color: black;
+    margin-top: 20px;
+    border: 1px solid white;
+    margin-bottom: 20px;
+}
+.footer p{
+    text-align: center;
+    margin-top: 6%;
+    margin-left: 6%;
+}
+
+.footer img {
+    float: right;
+    margin: 1%;
+    width: 50%;
+    border: 1px solid white;
+    border-radius: 5px;   
+}
+
+.area_fim {
+    padding: 10px;
+    text-align: center;
+}
